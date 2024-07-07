@@ -1,2 +1,2 @@
-#Manisha Bose
-My portfolio websit.
+# Manisha Bose
+My portfolio website.
