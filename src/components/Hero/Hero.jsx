@@ -11,6 +11,7 @@ export function Hero(){
                 <div>Improve.</div>
                 <div>Repeat.</div>
                 <div>Crafting pixel-perfect, code-  precise, scalable web application.</div>
+                <button>Download Resume!</button>
             </div>
             <div onMouseEnter={()=>{setImageSrc(meOutput)}}
                 onMouseLeave={()=>{setImageSrc(me)}}>
