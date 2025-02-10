@@ -93,6 +93,7 @@ export function Education(){
                     <Bar options={options} data={data} />
                 </div> 
             </div>
+            <hr/>
         </div>
     )
 }
