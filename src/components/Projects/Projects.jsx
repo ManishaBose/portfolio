@@ -15,10 +15,18 @@ export function Projects(){
 
 const showcase = [
     {
-        name: "AI_ChatBot",
+        name: "Digital Books Showcase",
+        url: "https://books-read-xfo8.onrender.com/",
+        thumbnail: "/img/bookShowcase.png",
+        video: "/projectDemo/bookShowcase.mp4",
+        description: "A full-stack web app that's my personal books showcase.",
+    },
+    {
+        name: "AI ChatBot",
         url: "https://github.com/ManishaBose/AI_ChatBot",
         thumbnail: "/img/chat_bot.png",
         video: "/projectDemo/chat_bot.mp4",
         description: "AI Chatbot can can run on your local server",
     },
+
 ]
