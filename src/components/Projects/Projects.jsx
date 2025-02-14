@@ -9,6 +9,7 @@ export function Projects(){
                 <VideoCard key={showcase.name} showcase={showcase} />
                 ))}
             </div>
+            <hr/>
         </div>
     )
 }
