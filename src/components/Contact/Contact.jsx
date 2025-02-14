@@ -2,7 +2,7 @@ export function Contact(){
     return (
         <div>
             <div>Contact</div>
-            <div>Let's connect!</div>
+            <div>Do leave your feedback!</div>
             <label htmlFor="price" className="block text-sm/6 font-medium text-gray-900">
                 Name
             </label>

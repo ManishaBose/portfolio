@@ -1,7 +1,7 @@
 export function Footer(){
     return (
         <div>
-            Hi!
+            Connect: LinkedIN Twitter GitHub Email
         </div>
     )
 }
