@@ -10,15 +10,17 @@ import { Projects } from './components/Projects/Projects'
 function App() {
  
   return (
-    <>
-      <Header/>
-      <Hero/>
-      <About/>
-      <Education/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </>
+    <div className="bg-gray-100 pl-30 pr-30">
+      <div className="bg-white pt-0 p-20 font-serif">
+        <Header/>
+        <Hero/>
+        <About/>
+        <Education/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </div>
+    </div>
   )
 }
 

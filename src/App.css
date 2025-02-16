@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-slow-spin: slow-spin 6s linear infinite;
+
+  @keyframes slow-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+
+@layer utilities {
+    /* Act as a border */
+    .card-wrapper {
+      @apply relative overflow-hidden rounded-2xl bg-gradient-to-b from-amber-200 to-amber-300;
+    }
+  
+    /* Gradient */
+    .card-wrapper::before {
+      background: conic-gradient(
+        rgba(154, 42, 42, 0.4) 0deg,
+        rgba(222, 95, 16, 0.776) 0deg,
+        transparent 250deg
+      );
+  
+      @apply absolute left-[-25%] top-[-25%] h-[150%] w-[150%] animate-slow-spin content-[''];
+    }
+  
+    /* Body */
+    .card-content {
+      @apply absolute left-[4px] top-[4px] h-[calc(100%-8px)] w-[calc(100%-8px)] rounded-2xl bg-gradient-to-b from-slate-800 to-slate-900;
+    }
+  }
+  
+  
